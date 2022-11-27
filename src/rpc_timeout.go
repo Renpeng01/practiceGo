@@ -8,8 +8,8 @@ import (
 
 // 使用context 控制请求其他服务的超时
 func main() {
-	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second)  // 超时
-	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second) // 完成请求
+	ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second) // 超时
+	// ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second) // 完成请求
 	defer cancel()
 
 	done := make(chan int, 0)
