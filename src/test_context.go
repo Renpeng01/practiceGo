@@ -57,7 +57,7 @@ func main() {
 	result := make(map[string]int, 0)
 	max := -100
 	for _, v := range old {
-		if _, ok := result[strings.Trim(v.LabelText, " ")]; ok {
+		if _, ok := result[strings.Trim(v.LabelText, "\xef\xb8\x8f")]; ok {
 			continue
 		}
 		result[v.LabelText] = v.Id
@@ -68,7 +68,7 @@ func main() {
 
 	i := max + 1
 	for _, v := range new {
-		if _, ok := result[strings.Trim(v.LabelText, " ")]; ok {
+		if _, ok := result[strings.Trim(v.LabelText, "\xef\xb8\x8f")]; ok {
 			continue
 		}
 		result[v.LabelText] = i
