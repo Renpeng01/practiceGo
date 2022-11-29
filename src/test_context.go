@@ -1,17 +1,38 @@
 package main
 
 import (
-	"net/http"
-	"time"
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"os"
 )
 
-func test(w http.ResponseWriter, r *http.Request) {
-	time.Sleep(20 * time.Second)
-	w.Write([]byte("test"))
+type FlashPoint struct {
+	LabelText string `json:labelText`
+	Id        int    `json:id`
 }
 
 func main() {
-	http.HandleFunc("/", test)
-	timeoutHandler := http.TimeoutHandler(http.DefaultServeMux, 5*time.Second, "timeout")
-	http.ListenAndServe(":8080", timeoutHandler)
+
+	old := make([]*FlashPoint, 0)
+	file, err := os.Open("/Users/lucas/Desktop/ShiningPoints.js")
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+	content, err := ioutil.ReadAll(file)
+
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	err = json.Unmarshal(content, old)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	fmt.Print(old)
+
 }

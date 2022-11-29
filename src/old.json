@@ -1,0 +1,283 @@
+[
+
+    {
+        "type": "生活影像",
+        "id": -1,
+        "labelImage": "",
+        "labelText": "生活影像",
+        "selected": true,
+        "icon": "assets/flashPoint/shehuozhao.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/shehuozhao..png"
+    },
+
+    {
+        "type": "户外/运动",
+        "id": 1,
+        "labelImage": "🎿",
+        "labelText": "滑雪",
+        "describeText": "你滑雪的炫酷瞬间",
+        "icon": "assets/flashPoint/huaxue.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/huaxue..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 2,
+        "labelImage": "🛹",
+        "labelText": "滑板",
+        "describeText": "你滑板的炫酷瞬间",
+        "icon": "assets/flashPoint/huaban.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/huaban..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 3,
+        "labelImage": "🏸",
+        "labelText": "羽毛球",
+        "describeText": "关于羽毛球的快乐时刻",
+        "icon": "assets/flashPoint/yumaoqiu.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/yumaoqiu..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 4,
+        "labelImage": "⚾️",
+        "labelText": "棒球",
+        "describeText": "关于棒球的快乐时刻",
+        "icon": "assets/flashPoint/bangqiu.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/bangqiu..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 5,
+        "labelImage": "⛳️",
+        "labelText": "高尔夫",
+        "describeText": "关于高尔夫的快乐时刻",
+        "icon": "assets/flashPoint/gaoerfu.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/gaoerfu..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 6,
+        "labelImage": "🏄",
+        "labelText": "桨板",
+        "describeText": "关于桨板的快乐时刻",
+        "icon": "assets/flashPoint/jiangban.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/jiangban..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 7,
+        "labelImage": "🧘",
+        "labelText": "瑜伽",
+        "describeText": "关于瑜伽的优雅时刻",
+        "icon": "assets/flashPoint/yujia.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/yujia..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 8,
+        "labelImage": "⛺️",
+        "labelText": "露营",
+        "describeText": "关于露营的快乐瞬间",
+        "icon": "assets/flashPoint/luying.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/luying..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 9,
+        "labelImage": "🧗",
+        "labelText": "攀岩",
+        "describeText": "你攀岩的刺激时刻",
+        "icon": "assets/flashPoint/panyan.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/panyan..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 10,
+        "labelImage": "⚽️",
+        "labelText": "足球",
+        "describeText": "关于足球的快乐时刻",
+        "icon": "assets/flashPoint/zuqiu.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/zuqiu..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 11,
+        "labelImage": "🥏",
+        "labelText": "飞盘",
+        "describeText": "关于飞盘的快乐瞬间",
+        "icon": "assets/flashPoint/feipan.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/feipan..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 12,
+        "labelImage": "🏃",
+        "labelText": "跑酷",
+        "describeText": "你跑酷的刺激时刻",
+        "icon": "assets/flashPoint/panku.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/panku..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 13,
+        "labelImage": "🚴",
+        "labelText": "骑行",
+        "describeText": "关于骑行的快乐时刻",
+        "icon": "assets/flashPoint/qixing.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/qixing..png"
+    },
+    {
+        "type": "户外/运动",
+        "id": 14,
+        "labelImage": "👣",
+        "labelText": "徒步",
+        "describeText": "关于徒步的快乐瞬间",
+        "icon": "assets/flashPoint/tubu.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/tubu..png"
+    },
+    {
+        "type": "潮流",
+        "id": 15,
+        "labelImage": "👟",
+        "labelText": "潮鞋",
+        "describeText": "你的潮鞋收藏",
+        "icon": "assets/flashPoint/chanxie.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/chanxie..png"
+    },
+    {
+        "type": "潮流",
+        "id": 16,
+        "labelImage": "🧸",
+        "labelText": "潮玩",
+        "describeText": "你的潮玩收藏",
+        "icon": "assets/flashPoint/chanxie.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/chanxie..png"
+    },
+    {
+        "type": "潮流",
+        "id": 17,
+        "labelImage": "🧥",
+        "labelText": "潮服",
+        "describeText": "你的潮服收藏",
+        "icon": "assets/flashPoint/chaofu.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/chaofu..png"
+    },
+    {
+        "type": "潮流",
+        "id": 18,
+        "labelImage": "⌚️",
+        "labelText": "手表",
+        "describeText": "你的手表收藏",
+        "icon": "assets/flashPoint/shoubiao.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/shoubiao..png"
+    },
+    {
+        "type": "潮流",
+        "id": 19,
+        "labelImage": "🚗",
+        "labelText": "汽车",
+        "describeText": "你的汽车收藏",
+        "icon": "assets/flashPoint/qiche.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/qiche..png"
+    },
+    {
+        "type": "艺术",
+        "id": 20,
+        "labelImage": "🎨",
+        "labelText": "绘画",
+        "describeText": "你绘画的灵感瞬间",
+        "icon": "assets/flashPoint/huihua.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/huihua..png"
+    },
+    {
+        "type": "艺术",
+        "id": 21,
+        "labelImage": "📷",
+        "labelText": "摄影",
+        "describeText": "你摄影的灵感瞬间",
+        "icon": "assets/flashPoint/sheying.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/sheying..png"
+    },
+    {
+        "type": "艺术",
+        "id": 22,
+        "labelImage": "💐",
+        "labelText": "插花",
+        "describeText": "做插花的灵感瞬间",
+        "icon": "assets/flashPoint/huayi.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/huayi..png"
+    },
+    {
+        "type": "艺术",
+        "id": 23,
+        "labelImage": "🎵",
+        "labelText": "玩音乐",
+        "describeText": "你玩音乐的灵感瞬间",
+        "icon": "assets/flashPoint/wanyiyue.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/wanyiyue..png"
+    },
+    {
+        "type": "艺术",
+        "id": 24,
+        "labelImage": "✏️",
+        "labelText": "写作",
+        "describeText": "你写作的灵感瞬间",
+        "icon": "assets/flashPoint/xiezuo.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/xiezuo..png"
+    },
+    {
+        "type": "生活",
+        "id": 25,
+        "labelImage": "🥗",
+        "labelText": "厨艺",
+        "describeText": "展示你的厨艺",
+        "icon": "assets/flashPoint/chuyi.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/chuyi..png"
+    },
+    {
+        "type": "生活",
+        "id": 26,
+        "labelImage": "🐶",
+        "labelText": "养宠物",
+        "describeText": "展示你的宠物",
+        "icon": "assets/flashPoint/yangchongwu.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/yangchongwu..png"
+    },
+    {
+        "type": "生活",
+        "id": 27,
+        "labelImage": "🌹",
+        "labelText": "养植物",
+        "describeText": "展示你的植物",
+        "icon": "assets/flashPoint/yangzhiwu.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/yangzhiwu..png"
+    },
+    {
+        "type": "生活",
+        "id": 28,
+        "labelImage": "🍷",
+        "labelText": "品酒",
+        "describeText": "展示你的品酒瞬间",
+        "icon": "assets/flashPoint/pinjiu.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/pinjiu..png"
+    },
+    {
+        "type": "生活",
+        "id": 29,
+        "labelImage": "✈️",
+        "labelText": "旅行",
+        "describeText": "展示你的旅行瞬间",
+        "icon": "assets/flashPoint/lvxing.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/lvxing..png"
+    },
+    {
+        "type": "生活",
+        "id": 30,
+        "labelImage": "👔",
+        "labelText": "收纳",
+        "describeText": "展示你的收纳",
+        "icon": "assets/flashPoint/shouna.png",
+        "href": "https://s.momocdn.com/s1/u/gacdfcjig/h/shouna..png"
+    }
+]
