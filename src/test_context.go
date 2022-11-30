@@ -1,11 +1,13 @@
 package main
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"os"
 	"strings"
+	"time"
 )
 
 type FlashPoint struct {
@@ -13,7 +15,7 @@ type FlashPoint struct {
 	Id        int    `json:id`
 }
 
-func main() {
+func main2() {
 
 	old := make([]FlashPoint, 0)
 	file, err := os.Open("./old.json")
@@ -80,5 +82,23 @@ func main() {
 	fmt.Println("-------")
 
 	fmt.Println(string(js))
+
+}
+
+func main() {
+
+	cancelCtx1, cancelFun1 := context.WithCancel(context.Background())
+	valueCtx := context.WithValue(cancelCtx1, "key", "val")
+	cancelCtx2, _ := context.WithCancel(valueCtx)
+
+	go func() {
+		time.Sleep(5 * time.Second)
+		cancelFun1()
+	}()
+
+	select {
+	case <-cancelCtx2.Done():
+		fmt.Println("cancelCtx2 is done")
+	}
 
 }
